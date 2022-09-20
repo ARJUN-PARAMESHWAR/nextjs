@@ -1,0 +1,33 @@
+.box1{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box2{
+  width:50%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.box2>h1{
+  text-align: center;
+}
+
+.box2>div>input{
+  width:50%;
+  margin:1% 25%;
+  padding:10px;
+  border-radius: 5px;
+}
+
+.loginbutton{
+  padding:5px;
+  margin:5% 47%;
+}
+
+.loginbutton:hover{
+  background-color:bisque;
+  cursor: pointer;
+}
