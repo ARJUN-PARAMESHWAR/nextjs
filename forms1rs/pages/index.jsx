@@ -10,7 +10,9 @@ export default function Loginpage(){
  
    if(keys.length >= 5 && values.length >=8)
    {
-       alert ("Hip hop hurray!");
+       let element = document.getElementById("Username");
+       let Username = element.value;
+       alert (`Welcome ${Username}`)
        router.push("/dashboard")
    }
  
@@ -30,7 +32,7 @@ export default function Loginpage(){
          <div className={styles.box2}>
            <h1>Welcome to the LoginPage!</h1>
            <div>
-             <input onChange={Inputfields} type={"text"} placeholder={"Username"} name="Username"></input>
+             <input id={"Username"}onChange={Inputfields} type={"text"} placeholder={"Username"} name="Username"></input>
              <input  onChange={Inputfields}  type={"password"} placeholder={"Password"} name="Password"></input>
              <button className ={styles.loginbutton} onClick={Credcheck}>Login</button>
            </div>
@@ -39,3 +41,4 @@ export default function Loginpage(){
      </>
    )
 }
+

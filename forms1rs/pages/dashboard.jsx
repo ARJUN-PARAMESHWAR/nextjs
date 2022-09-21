@@ -1,5 +1,5 @@
-import Sidepanel from "../sidepanel"
+import Mainpanel from "../mainpanel"
 
 export default function Dashboard(){
-    return(<><Sidepanel></Sidepanel><h1>Hello from dashboard</h1></>)
+    return(<><Mainpanel></Mainpanel></>)
 }
