@@ -32,3 +32,151 @@
   background-color:bisque;
   cursor: pointer;
 }
+
+.dashboardbox{
+  width:70%;
+  margin:5% 15%;
+  border:2px solid black;
+  border-radius: 2%;
+  height:600px;
+  float:left;
+  background-image: url(../public/images/pebbles.jpg);
+}
+
+.dashboardbox_1{
+  width:100%;
+  height: 100%;
+  float:left;
+}
+
+.dashboardtitle{
+  background-color: antiquewhite;
+  text-align: center;
+}
+
+.card1,.card2,.card3,.card4,.card6{
+  width:30%;
+  height:30%;
+  text-align: center;
+  float:left;
+  margin:1%;
+  border-radius: 50%;
+  color: #fff;
+
+}
+
+.card1{
+  background-color: #2ac4ea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.card1:hover{
+  background-color: #03a9f4;
+  color:#000;
+  transform:scale(1.1);
+
+}
+
+.card2{
+  background-color: #f6653c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card2:hover{
+  background-color: #e44a1f;
+  color:#000;
+  transform:scale(1.1);
+
+}
+
+.card3{
+  background-color: #333;
+  color: #fff;
+}
+
+.card3:hover{
+  background-color: #000;
+  color:#2ac4ea;
+  transform:scale(1.1);
+
+}
+
+.card3>a>div{
+  padding:15px 0;
+  float: left;
+  width: 100%;
+  margin-top:20px;
+}
+
+.card4{
+  background-color: #e91e63;
+}
+
+.card4:hover{
+  background-color: #bb0542;
+  color:#000;
+  transform:scale(1.1);
+
+}
+
+.card4>a>div{
+  padding:15px 0;
+  float: left;
+  width: 100%;
+  margin-top:20px;
+}
+
+.card5{
+  width:30%;
+  height:30%;
+  text-align: center;
+  float: left;
+  background-color: #77cc6d;
+  margin: 1%;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.card5:hover{
+  background-color:#3eca2f;
+  color:#000;
+  transform:scale(1.1);
+
+}
+
+.card5>a>div{
+  padding:10px;
+  margin-top:10px;
+}
+.card6{
+  background-color: rgb(146, 92, 197);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card6:hover{
+  background-color: blueviolet;
+  color:#000;
+  transform:scale(1.1);
+}
+
+
+
+/* Hardware component */
+
+.container{
+  width:70%;
+  float: left;
+  border:2px solid black;
+  margin:10% 15%;
+}
+
+.container>div{
+  font-size:medium;
+}

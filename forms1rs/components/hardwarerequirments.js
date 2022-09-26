@@ -1,10 +1,12 @@
 import { useRouter } from "next/router"
+import styles from "../styles/Home.module.css"
 
 export default function Hardwarerequirement(){
 const router = useRouter();
 
-    return(<><h1>Hardware requirement</h1>
-    <div>
+    return(<>
+    <div className={styles.container}>
+    <h1>Hardware requirement</h1>
         <div>
             <label>Name of the Employee</label>
             <input type={"text"} placeholder={"Enter your answer"}></input>
